@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.ar.sceneform:rendering:1.17.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/71bb407bcbe5301e0a0ea8d10a1a7917/transformed/jetified-rendering-1.17.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/71bb407bcbe5301e0a0ea8d10a1a7917/transformed/jetified-rendering-1.17.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/71bb407bcbe5301e0a0ea8d10a1a7917/transformed/jetified-rendering-1.17.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

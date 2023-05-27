@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Havana Gym</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Havana Gym</string>
+    <string name="nav_header_subtitle">Фитнес клуб в Одинцово</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Лучший в Одинцово!</string>
+    <string name="us">О нас</string>
+    <string name="call">Позвонить в клуб</string>
+    <string name="call_button">Вызов</string>
+    <string name="train">Тренировки</string>
+    <string name="code_exit">Назад</string>
+    <string name="call_info">Если вы хотите узнать подробную информацию, то позвоните в клуб</string>
+    <string name="urf"><a href="https://onlineconvertfree.com/ru/convert/jpg/">НАЖМИ СЮДА</a></string>
+    <string name="home_down_text">Количество людей в зале:</string>
+    <string name="home_down_text_1">100</string>
+    <string name="home_down_text_2">чел.</string>
+
+    <string name="text_info_">Информация об инструкторе</string>
+    <string name="text_info_kris_ins_1">Белошапкина Кристина</string>
+    <string name="text_info_kris_ins_2">Руководитель групповых программ</string>
+    <string name="text_info_olga_ins_1">Никитина Ольга</string>
+    <string name="text_info_olga_ins_2">Инструктор групповых программ</string>
+    <string name="text_info_olga_n_ins_1">Никифорова Ольга</string>
+    <string name="text_info_olga_n_ins_2">Инструктор групповых программ</string>
+    <string name="text_info_diana_ins_1">Тарасова Диана</string>
+    <string name="text_info_diana_ins_2">Инструктор групповых программ</string>
+    <string name="text_info_vladimir_ins_1">Чупров Владимир</string>
+    <string name="text_info_vladimir_ins_2">Инструктор йоги</string>
+    <string name="text_info_olga_b_ins_1">Беллонова Ольга</string>
+    <string name="text_info_olga_b_ins_2">Инструктор групповых программ</string>
+    <string name="text_info_oxana_ins_1">Баскакова Оксана</string>
+    <string name="text_info_oxana_ins_2">Сертифицированный тренер по акробатике на пилоне</string>
+    <string name="text_info_kris_k_ins_1">Калинина Кристина</string>
+    <string name="text_info_kris_k_ins_2">Сертифицированный тренер по акробатике на пилоне</string>
+    <string name="text_info_nastya_ins_1">Сафина Анастасия</string>
+    <string name="text_info_nastya_ins_2">Сертифицированный тренер по акробатике на пилоне</string>
+    <string name="text_info_roman_ins_1">Драныш Роман</string>
+    <string name="text_info_roman_ins_2">Тренер по Breakdance</string>
+
+
+    <string name="text_edit_lk">Личный профиль</string>
+    <string name="text_name">Имя</string>
+    <string name="text_surname">Фамилия</string>
+    <string name="text_birth_data">День</string>
+    <string name="text_birth_month">Месяц</string>
+    <string name="text_birth_year">Год</string>
+    <string name="text_email">Почта</string>
+    <string name="text_save">Сохранить</string>
+    <string name="menu_home">Фитнес клуб Havana Gym</string>
+    <string name="menu_gallery">Расписание</string>
+
+    <string name="menu_gallery_data">08:00</string>
+    <string name="duration">60 мин</string>
+
+    <string name="menu_gallery_tx">Jumping</string>
+    <string name="menu_gallery_t1">Большой зал</string>
+    <string name="menu_gallery_t2">Тарасова Диана</string>
+
+
+    <string name="instructor_info_olga">Никитина Ольга\n\nИнструктор групповых программ</string>
+    <string name="instructor_info_olga_n">Никифорова Ольга\n\nИнструктор групповых программ</string>
+    <string name="instructor_info_diana">Тарасова Диана\n\nИнструктор групповых программ</string>
+    <string name="instructor_info_vladimir">Чупров Владимир\n\nИнструктор йоги</string>
+    <string name="instructor_info_olga_b">Беллонова Ольга\n\nИнструктор групповых программ</string>
+    <string name="instructor_info_kris">Белошапкина Кристина\n\nРуководитель групповых программ</string>
+    <string name="instructor_info_oksana">Баскакова Оксана\n\nСертифицированный тренер по акробатике на пилоне</string>
+    <string name="instructor_info_kris_k">Калинина Кристина\n\nСертифицированный тренер по акробатике на пилоне</string>
+    <string name="instructor_info_nastya">Сафина Анастасия\n\nСертифицированный тренер по акробатике на пилоне</string>
+    <string name="instructor_info_roman">Драныш Роман\n\nТренер по Breakdance</string>
+
+    <string name="all_info_kris"><ol><li>Занимается танцами и хореографией с 5 лет\n</li><li>15 лет протанцевала в студии при Ансамбле Песни и Пляски РВСН Красная Звезда\n</li><li>Владеет основами классического танца, современными стилями, а также латиноамериканским танцем\n</li><li>Педагог хореограф\n</li><li>Опыт преподавания детской хореографии более 6 лет\n</li><li>С 2009-2013 работала солисткой в шоу балете Альмани\n</li><li>С 2012 и по настоящее время является солисткой танцевального шоу Miss Alegria\n</li><li>В 2014 работала в мюзикле Моцарт\n</li><li>Также работала фитнес инструктором групповых танцевальныx программ (Latina, Zumba fitness, strip dance, lady’s dance, dance mix,contemporary, RnB, jazz funk, dancehall) stretching</li></ol></string>
+    <string name="all_info_olga"><ol><b>Инструктор групповых программ по:\n\n</b><li>Belly Dance\n</li><li>Pilates\n</li><li>Flamenko\n</li></ol></string>
+    <string name="all_info_olga_n"><ol><b>Образование и сертификаты:\n\n</b><li>Сертифицированный тренер FPA\n</li><li>Выпускник высшей школы фитнеса и бодибилдинга\n\n</li><b>Инструктор групповых программ по:\n\n</b><li>Составление индивидуальных тренировочных программ\n</li><li>Снижение веса набор мышечной массы, развитие гибкости\n</li><li>Тренировки при межпозвоночной грыже и протрузиях\n</li><li>Мотивация и дисциплина питания\n</li></ol></string>
+    <string name="all_info_diana"><ol><b>Образование и сертификаты:\n\n</b><li>Сертифицированный тренер FPA\n\n</li><b>Инструктор групповых программ по:\n\n</b><li>Functional Training\n</li><li>Classic Aerobic\n</li><li>Step Aerobic\n</li><li>Power Training\n</li><li>Interval Training\n</li><li>Strip Dance\n</li><li>Lady Dance\n</li><li>Cycle\n</li></ol></string>
+    <string name="all_info_vladimir"><ol><li>Сертифицированный тренер по Йоге по методике Б.К.С., Айенгара и А.В. Лаппы\n</li><li>Тренер по Пассивной Йоге, Универсальной Йоге, Хатха-йоге\n</li><li>Владеет техникой Ведического Тайского Йога-массажа\n</li></ol></string>
+    <string name="all_info_olga_b"><ol><b>Тренер по:\n\n</b><li>Strip Dance\n</li><li>Fitball\n</li></ol></string>
+    <string name="all_info_oxana"><ol><b>Курсы и мастер-классы:\n\n</b><li>Курс подготовки по акробатике на пилоне Федерации Воздушно-спортивного Эквилибра России\n</li><li>Базовый курс для преподавателей акробатики на пилоне от Кристины Думанской от My Pole Space\n</li><li>Курс лекций по растяжке Кристины Думанской от My Pole Space\n</li><li>Курс по Exotic pole База Анастасии Фатеевой от My Pole Space\n</li><li>Курс по Exotic pole Puzzle Анастасии Фатеевой от My Pole Space\n</li><li>Мастер-класс «Безопасная мобилизация ТБС» Ольги Гламаздиной\n</li><li> Мастер классы «Stretching and Balance» по растяжке и стойкам от Элины Шимановской\n\n</li><b>Действующий соревнующийся спортсмен Pole sport, (c 2019 г.)\n\n</b><b>Награды:\n\n</b><li>2019 — Серебряный призер Кубка «JUICE» в категории Pole sport\n</li><li>2019 — Бронзовый призер турнира CATWALK Pole and Aerial Dance Festival в категории Pole sport\n</li></ol></string>
+    <string name="all_info_kris_k"><ol><li>Сертифицированный тренер по Pole dance и растяжке\n</li><li>Бронзовый призер соревнований Кубок Juice\n</li><li>Сейчас активно продолжает обучение и повышаю квалификацию по Pole dance, растяжке и pole contemporary\n</li><li>Регулярно посещает мастер-классы по этим направлениям\n</li><li>Первостепенной важностью на своих тренировках считает безопасность своих учениц, поэтому особое внимание уделяет последовательности освоения трюков (от простого к сложному) с соблюдением техники выполнения элементов на основе принципов биомеханики\n\n</li><b>"В Pole dance влюблена с 2017 года и c годами эта любовь становится только сильнее. Буду рада поделиться своим вдохновением и энергией с Вами. Увидимся на тренировках"</b></ol></string>
+    <string name="all_info_nastya"><ol><b>Образование и сертификаты:\n\n</b><li>Действующий соревнующийся спортсмен Pole Artistic\n</li><li>Серебряный призёр VI Открытого Кубка Любителей по воздушно-спортивному эквилибру в категории Pole Artistic соло\n</li><li>Участник студийных отчётных концертов\n\n</li><b>Курсы и мастер-классы:\n\n</b><li> Курс подготовки по акробатике на пилоне Федерации Воздушно-спортивного Эквилибра России\n</li><li>Курс лекций по растяжке Кристины Думанской\n</li><li>Мастер-класс «Безопасная мобилизация ТБС» Ольги Гламаздиной\n</li></ol></string>
+    <string name="all_info_roman"><ol><li>Спортивная гимнастика 8 лет\n</li><li>Брейк данс более 10 лет\n</li><li>Участник областных соревнований\n</li><li>Профессиональный BMX райдер\n</li><li>Стаж 16 лет (экстремальный велосипед)\n</li><li>Преподавательский стаж с 2012 года\n</li></ol></string>
+
+    <string name="cardio_train_sport">Быстрая тренировка на жиросжигание</string>
+    <string name="bottom_train_sport">Тренировка на ягодицы</string>
+    <string name="up_train_sport">Тренировка груди и плеч с гантелями</string>
+    <string name="statics_train_sport">Статичная тренировка на всё тело</string>
+
+    <string name="trains">Тренажёры</string>
+
+    <string name="name_sport_1">Скамья Скотта</string>
+    <string name="name_sport_1_1">Силовой тренажер, предназначенный для изолированной тренировки бицепса. В качестве нагрузки необходимо использовать штангу со свободными грузами.</string>
+    <string name="name_sport_2">Скамья для жима</string>
+    <string name="name_sport_21">На данной скамье можно качать пресс, спину и выполнять жимовые упражнения под разными углами, прорабатывая различные участки грудных мышц, спины.</string>
+    <string name="name_sport_3">Платформа для жима ногами</string>
+    <string name="name_sport_31">Жим ногами в тренажере направлен на проработку квадрицепсов. Также в движении задействованы бицепсы бедер и ягодичные мышцы.</string>
+    <string name="name_sport_4">Силовая рама</string>
+    <string name="name_sport_41">Силовая рама важный элемент для безопасной тренировки, применяется в качестве страховочной стойки во время выполнения упражнений с тяжелоатлетическими штангами.</string>
+
+
+    <string name="sport_video">Тренировка</string>
+    <string name="sport_ar">AR модель</string>
+
+    <string name="menu_person">Личный кабинет</string>
+    <string name="button_person">Тренеровки</string>
+    <string name="button_2_person">Расписание</string>
+    <string name="button_3_person">Информация об инструкторах</string>
+    <string name="button_4_person">Тренажеры</string>
+    <string name="person_name">Телефон</string>
+    <string name="person_edit">Редактировать</string>
+    <string name="menu_instructor">Инструкторы</string>
+    <string name="logo">TODO</string>
+    <string name="button_home">Расписание</string>
+    <string name="button_home_lk">Личный кабинет</string>
+    <string name="button_home_3d">Тур</string>
+    <string name="button_id">Личный кабинет</string>
+    <string name="button_call">Звонок в клуб</string>
+    <string name="button_login">Введите номер для авторизации</string>
+    <string name="button_login_2">Пожалуйста, введите код страны и номер телефона для авторизации</string>
+    <string name="button_login_1">Получить код</string>
+    <string name="button_login_cod">+7</string>
+    <string name="button_login_number">Ваш номер телефона</string>
+    <string name="button_exit">Выход</string>
+    <string name="button_code">Ввод кода</string>
+    <string name="button_code_1">Введите полученный код для авторизации</string>
+    <string name="button_code_2">Введите код</string>
+    <string name="button_code_3">Авторизоваться</string>
+    <string name="button_login_3">Working . . .</string>
+
+    <string name="text_for_havana"><ol>Почему стоит выбрать HavanaGym?\n\nЛучшие специалисты-энтузиасты Одинцово собрались в единый механизм – команду, которая сделает ваш путь к красоте и здоровью приятным, интересным, эффективным:\n<li>Ценовая доступность услуг HavanaGym – одна из причин для выбора. А регулярно проводимые акции и предоставляемые бонусы позволят сэкономить еще больше\n</li><li>Прийти к нам на бесплатное пробное занятие и уйти без абонемента – нереально: здесь найдется подходящая программа для каждого. Танцы разных видов, растяжка, стрип-пластика, силовые программы с различным оборудованием, единоборства, прекрасно оснащенный современный тренажерный зал – и всё это с индивидуальным подходом, под любую степень подготовленности. А вдобавок – сауна и массажный кабинет, чтобы вы всегда могли совместить приятное с полезным и закрепить эффект от тренировок\n</li><li>Наши строгие, но чуткие и заботливые инструкторы имеют огромный академический и, что особенно важно, практический опыт в помощи тем, кто хочет стать сильнее, красивее, здоровее. Они всегда – на страже вашей физической формы и нацелены исключительно на результат\n</li></ol></string>
+
+    <string name="tyr">3D Тур</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

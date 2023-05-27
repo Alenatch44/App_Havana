@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_schedule_icon"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_person_icon"
+            android:title="@string/menu_person" />
+        <item
+            android:id="@+id/nav_instructor"
+            android:icon="@drawable/ic_baseline_accessibility_new_24"
+            android:title="@string/menu_instructor" />
+        <item
+            android:id="@+id/nav_us"
+            android:icon="@drawable/ic_baseline_widgets_24"
+            android:title="@string/us" />
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/ic_train_icon"
+            android:title="@string/trains" />
+        <item
+            android:id="@+id/nav_train"
+            android:icon="@drawable/ic_baseline_sports_gymnastics_24"
+            android:title="@string/train" />
+
+    </group>
+</menu>

@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/calendar"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_227sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+                android:onClick="onClick"
+                android:selectedWeekBackgroundColor="#ff0000"
+                android:weekNumberColor="#0000ff"
+                android:weekSeparatorLineColor="#00ff00"
+                tools:ignore="UsingOnClickInXml" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_1"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_2"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery_2"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_data"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery_2"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery_2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text="@string/duration"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery_2"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_tx"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery_2"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery_2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_t1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery_2"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery_2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_t2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_2"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery_2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_3"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery_3"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_data"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery_3"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery_3"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text="@string/duration"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery_3"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_tx"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery_3"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery_3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_t1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery_3"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery_3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_t2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_3"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery_3"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_4"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery_4"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_data"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery_4"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery_4"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text="@string/duration"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery_4"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_tx"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery_4"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery_4"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_t1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery_4"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery_4"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_t2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_4"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery_4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_5"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery_5"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_data"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery_5"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery_5"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text="@string/duration"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery_5"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_tx"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery_5"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery_5"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_t1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery_5"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery_5"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text="@string/menu_gallery_t2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_5"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery_5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_6"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery_6"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery_6"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery_6"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery_6"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery_6"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery_6"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery_6"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery_6"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_6"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery_6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_7"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery_7"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery_7"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery_7"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery_7"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery_7"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery_7"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery_7"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery_7"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_7"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery_7"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_8"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery_8"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery_8"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery_8"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery_8"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery_8"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery_8"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery_8"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery_8"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_8"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery_8"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_9"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery_9"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery_9"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery_9"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery_9"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery_9"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery_9"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery_9"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery_9"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_9"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery_9"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_10"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery_10"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery_10"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery_10"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery_10"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery_10"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery_10"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery_10"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery_10"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_10"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery_10"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_11"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery_11"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery_11"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery_11"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery_11"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery_11"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery_11"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery_11"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery_11"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_11"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery_11"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_12"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery_12"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery_12"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery_12"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery_12"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery_12"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery_12"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery_12"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery_12"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_12"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery_12"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_13"
+            android:layout_width="@dimen/_312sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relLayout">
+
+            <TextView
+                android:id="@+id/time_gallery_13"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/duration_gallery_13"
+                android:layout_width="@dimen/_62sdp"
+                android:layout_height="@dimen/_21sdp"
+                android:layout_below="@+id/time_gallery_13"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_gallery_13"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/place_gallery_13"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/name_gallery_13"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coach_gallery_13"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_below="@+id/place_gallery_13"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_line_13"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/coach_gallery_13"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_125sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

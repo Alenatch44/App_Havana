@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.instructor.InstructorFragment">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relLayout_ins"
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/name_gallery"
+                android:layout_width="255dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/imageViewInstructor"
+                android:gravity="left"
+                android:text="@string/instructor_info_kris"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageViewInstructor" />
+
+            <ImageView
+                android:id="@+id/imageViewInstructor"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.131"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/kris_photo" />
+
+            <Button
+                android:id="@+id/button_line_1"
+                android:layout_width="410dp"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_ins_1"
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/name_gallery_1"
+                android:layout_width="255dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/imageViewInstructor_1"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/instructor_info_olga"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageViewInstructor_1"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.131"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/olga_photo" />
+
+            <Button
+                android:id="@+id/button_line_2"
+                android:layout_width="410dp"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_ins_2"
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/name_gallery_2"
+                android:layout_width="255dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/imageViewInstructor_2"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/instructor_info_olga_n"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageViewInstructor_2"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.131"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/olga_n_photo" />
+
+            <Button
+                android:id="@+id/button_line_3"
+                android:layout_width="410dp"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_ins_3"
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/name_gallery_3"
+                android:layout_width="255dp"
+                android:layout_height="107dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@+id/imageViewInstructor_3"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/instructor_info_diana"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageViewInstructor_3"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.131"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/diana_photo" />
+
+            <Button
+                android:id="@+id/button_line_4"
+                android:layout_width="410dp"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_ins_4"
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/name_gallery_4"
+                android:layout_width="255dp"
+                android:layout_height="97dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="35dp"
+                android:layout_toEndOf="@+id/imageViewInstructor_4"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/instructor_info_vladimir"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageViewInstructor_4"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.131"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/vladimir_photo" />
+
+            <Button
+                android:id="@+id/button_line_5"
+                android:layout_width="410dp"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_ins_5"
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/name_gallery_5"
+                android:layout_width="255dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/imageViewInstructor_5"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/instructor_info_olga_b"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageViewInstructor_5"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.131"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/olga_b_photo" />
+
+            <Button
+                android:id="@+id/button_line_6"
+                android:layout_width="410dp"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_ins_6"
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/name_gallery_6"
+                android:layout_width="255dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/imageViewInstructor_6"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/instructor_info_oksana"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageViewInstructor_6"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.131"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/oxana_photo" />
+
+            <Button
+                android:id="@+id/button_line_7"
+                android:layout_width="410dp"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_ins_7"
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/name_gallery_7"
+                android:layout_width="255dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/imageViewInstructor_7"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/instructor_info_kris_k"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageViewInstructor_7"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.131"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/kris_k_photo" />
+
+            <Button
+                android:id="@+id/button_line_8"
+                android:layout_width="410dp"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_ins_8"
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/name_gallery_8"
+                android:layout_width="255dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/imageViewInstructor_8"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/instructor_info_nastya"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageViewInstructor_8"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.131"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/nastya_photo" />
+
+            <Button
+                android:id="@+id/button_line_9"
+                android:layout_width="410dp"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout_ins_9"
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/name_gallery_9"
+                android:layout_width="255dp"
+                android:layout_height="107dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="35dp"
+                android:layout_toEndOf="@+id/imageViewInstructor_9"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/instructor_info_roman"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageViewInstructor_9"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.131"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/roman_photo" />
+
+            <Button
+                android:id="@+id/button_line_10"
+                android:layout_width="410dp"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/button_line"
+                android:gravity="center|center_vertical"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

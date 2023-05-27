@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_gallery"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_call"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_call" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_slideshow"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_slideshow" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_train"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_train" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_us"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_us" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_instructor"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_instructor" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_web"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_web" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.myapplication.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_person"
+        tools:layout="@layout/fragment_slideshow" >
+        <action
+            android:id="@+id/action_nav_slideshow_to_nav_home"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_slideshow_to_nav_instructor"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_instructor" />
+        <action
+            android:id="@+id/action_nav_slideshow_to_nav_edit_lk"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_edit_lk" />
+        <action
+            android:id="@+id/action_nav_slideshow_to_nav_train"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_train" />
+        <action
+            android:id="@+id/action_nav_slideshow_to_nav_gallery"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_slideshow_to_nav_call"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_call" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_instructor"
+        android:name="com.example.myapplication.ui.instructor.InstructorFragment"
+        android:label="@string/menu_instructor"
+        tools:layout="@layout/fragment_instructor" >
+        <action
+            android:id="@+id/action_nav_instructor_to_nav_ins_kris"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_ins_kris" />
+        <action
+            android:id="@+id/action_nav_instructor_to_nav_ins_olga"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_ins_olga" />
+        <action
+            android:id="@+id/action_nav_instructor_to_nav_ins_olga_n"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_ins_olga_n" />
+        <action
+            android:id="@+id/action_nav_instructor_to_nav_ins_diana"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_ins_diana" />
+        <action
+            android:id="@+id/action_nav_instructor_to_nav_ins_vladimir"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_ins_vladimir" />
+        <action
+            android:id="@+id/action_nav_instructor_to_nav_ins_olga_b"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_ins_olga_b" />
+        <action
+            android:id="@+id/action_nav_instructor_to_nav_ins_oxana"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_ins_oxana" />
+        <action
+            android:id="@+id/action_nav_instructor_to_nav_ins_kris_k"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_ins_kris_k" />
+        <action
+            android:id="@+id/action_nav_instructor_to_nav_ins_nastya"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_ins_nastya" />
+        <action
+            android:id="@+id/action_nav_instructor_to_nav_ins_roman"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true"
+            app:destination="@id/nav_ins_roman" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_us"
+        android:name="com.example.myapplication.ui.us.UsFragment"
+        android:label="@string/us"
+        tools:layout="@layout/fragment_us" />
+
+    <fragment
+        android:id="@+id/nav_call"
+        android:name="com.example.myapplication.ui.sport.SportFragment"
+        android:label="@string/trains"
+        tools:layout="@layout/fragment_sport" />
+
+    <fragment
+        android:id="@+id/nav_train"
+        android:name="com.example.myapplication.ui.train.TrainFragment"
+        android:label="@string/train"
+        tools:layout="@layout/fragment_train" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_edit_lk"
+        android:label="@string/text_edit_lk"
+        android:name="com.example.myapplication.ui.edit_lk.Edit_lkFragment"
+        tools:layout="@layout/fragment_edit_lk" >
+        <action
+            android:id="@+id/action_nav_edit_lk_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ins_kris"
+        android:label="@string/text_info_kris_ins_1"
+        android:name="com.example.myapplication.ui.info_ins.KrisFragment"
+        tools:layout="@layout/fragment_ins_kris" >
+        <action
+            android:id="@+id/action_nav_ins_kris_to_nav_instructor"
+            app:destination="@id/nav_instructor" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ins_olga"
+        android:label="@string/text_info_olga_ins_1"
+        android:name="com.example.myapplication.ui.info_ins.OlgaFragment"
+        tools:layout="@layout/fragment_ins_olga" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ins_olga_n"
+        android:label="@string/text_info_olga_n_ins_1"
+        android:name="com.example.myapplication.ui.info_ins.OlganFragment"
+        tools:layout="@layout/fragment_ins_olga_n" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ins_diana"
+        android:label="@string/text_info_diana_ins_1"
+        android:name="com.example.myapplication.ui.info_ins.DianaFragment"
+        tools:layout="@layout/fragment_ins_diana" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ins_vladimir"
+        android:label="@string/text_info_vladimir_ins_1"
+        android:name="com.example.myapplication.ui.info_ins.VladimirFragment"
+        tools:layout="@layout/fragment_ins_vladimir" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ins_olga_b"
+        android:label="@string/text_info_olga_b_ins_1"
+        android:name="com.example.myapplication.ui.info_ins.OlgabFragment"
+        tools:layout="@layout/fragment_ins_olga_b" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ins_oxana"
+        android:label="@string/text_info_oxana_ins_1"
+        android:name="com.example.myapplication.ui.info_ins.OxanaFragment"
+        tools:layout="@layout/fragment_ins_oxana" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ins_kris_k"
+        android:label="@string/text_info_kris_k_ins_1"
+        android:name="com.example.myapplication.ui.info_ins.KriskFragment"
+        tools:layout="@layout/fragment_ins_kris_k" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ins_nastya"
+        android:label="@string/text_info_nastya_ins_1"
+        android:name="com.example.myapplication.ui.info_ins.NastyaFragment"
+        tools:layout="@layout/fragment_ins_nastya" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ins_roman"
+        android:label="@string/text_info_roman_ins_1"
+        android:name="com.example.myapplication.ui.info_ins.RomanFragment"
+        tools:layout="@layout/fragment_ins_roman" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_web"
+        android:label="@string/tyr"
+        android:name="com.example.myapplication.ui.info_ins.DFragment"
+        tools:layout="@layout/fragment_3d" />
+
+
+
+
+</navigation>

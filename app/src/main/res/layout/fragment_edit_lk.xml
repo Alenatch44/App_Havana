@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+
+
+    <TextView
+        android:id="@+id/text_lp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="@string/text_edit_lk"
+        android:textAlignment="center"
+        android:fontFamily="@font/open_sans_bold"
+        android:textColor="@color/person_color_1"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="22dp"
+        android:background="@color/person_color_light"
+        android:ems="10"
+        android:fontFamily="@font/open_sans_semibold"
+        android:hint="@string/text_name"
+        android:inputType="textAutoCorrect"
+        android:padding="16dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_lp" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="22dp"
+        android:background="@color/person_color_light"
+        android:ems="10"
+        android:fontFamily="@font/open_sans_semibold"
+        android:hint="@string/text_surname"
+        android:inputType="textAutoCorrect"
+        android:padding="16dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/birth_data"-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_marginStart="22dp"-->
+<!--        android:layout_marginEnd="22dp"-->
+<!--        android:layout_marginTop="22dp"-->
+<!--        android:background="@color/person_color_light"-->
+<!--        android:ems="10"-->
+<!--        android:fontFamily="@font/open_sans_semibold"-->
+<!--        android:hint="@string/text_birth_data"-->
+<!--        android:inputType="date"-->
+<!--        android:paddingStart="16dp"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/surname" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/birth_month"-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_marginTop="22dp"-->
+<!--        android:layout_marginStart="12dp"-->
+<!--        android:background="@color/person_color_light"-->
+<!--        android:ems="10"-->
+<!--        android:fontFamily="@font/open_sans_semibold"-->
+<!--        android:hint="@string/text_birth_month"-->
+<!--        android:inputType="date"-->
+<!--        android:paddingStart="16dp"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/birth_data"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/surname" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/birth_year"-->
+<!--        android:layout_width="134dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_marginTop="22dp"-->
+<!--        android:layout_marginStart="12dp"-->
+<!--        android:background="@color/person_color_light"-->
+<!--        android:ems="10"-->
+<!--        android:fontFamily="@font/open_sans_semibold"-->
+<!--        android:hint="@string/text_birth_year"-->
+<!--        android:inputType="date"-->
+<!--        android:paddingStart="16dp"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/birth_month"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/surname" />-->
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="22dp"
+        android:background="@color/person_color_light"
+        android:ems="10"
+        android:fontFamily="@font/open_sans_semibold"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/surname" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="22dp"
+        android:background="@color/person_color_light"
+        android:ems="10"
+        android:fontFamily="@font/open_sans_semibold"
+        android:hint="@string/text_email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="22dp"
+        android:background="@color/person_color_1"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="@string/text_save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

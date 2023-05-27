@@ -1,0 +1,474 @@
+[
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_gallery.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout-normal_fragment_ins_diana.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout-normal\\fragment_ins_diana.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_edit_lk.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\fragment_edit_lk.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_kris_k_photo.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\kris_k_photo.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_person_icon.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_person_icon.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_login_window.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\login_window.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_qr_code_24.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_baseline_qr_code_24.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_content_main.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_olga_b_photo.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\olga_b_photo.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bottom_train.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\bottom_train.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_slideshow.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ar.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\activity_ar.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_olga_n_photo.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\olga_n_photo.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_e26bc3b0b6dc1baa6be8759467c047ed.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\e26bc3b0b6dc1baa6be8759467c047ed.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bottom.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\activity_bottom.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_id_icon.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_id_icon.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout-normal_fragment_ins_olga_n.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout-normal\\fragment_ins_olga_n.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_oxana_photo.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\oxana_photo.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_us.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\fragment_us.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_chestbench.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\chestbench.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_widgets_24.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_baseline_widgets_24.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_statics_train.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\statics_train.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_legpress.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\legpress.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_up.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\activity_up.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout-normal_fragment_3d.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout-normal\\fragment_3d.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\font_open_sans_semibold.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\font\\open_sans_semibold.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_news_icon.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_news_icon.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_text_input_bg.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\text_input_bg.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_scott.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\activity_scott.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_primary_btn_bg.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\primary_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\raw_train.sfb.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\raw\\train.sfb"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_main_id.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\button_main_id.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_main.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\menu_main.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_info.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\button_info.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_people_24.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_baseline_people_24.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_diana_photo.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\diana_photo.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_legrack.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\activity_legrack.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_train_girl.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\train_girl.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_sport.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\fragment_sport.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_icon_people.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_icon_people.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout-normal_fragment_ins_kris.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout-normal\\fragment_ins_kris.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_slider1.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\slider1.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_armbench.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\armbench.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_sports_gymnastics_24.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_baseline_sports_gymnastics_24.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout-normal_fragment_ins_nastya.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout-normal\\fragment_ins_nastya.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_logo_icon.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_logo_icon.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_train_icon.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_train_icon.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\raw_legpress.sfb.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\raw\\legpress.sfb"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_statics.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\activity_statics.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\font_roboto.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\font\\roboto.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout-normal_fragment_ins_olga.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout-normal\\fragment_ins_olga.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_schedule_icon.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_schedule_icon.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\raw_legrack.sfb.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\raw\\legrack.sfb"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_code.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\activity_code.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chestbench.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\activity_chestbench.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\raw_chestbench.sfb.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\raw\\chestbench.sfb"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_kris_photo.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\kris_photo.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_g_icon.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_g_icon.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\raw_my.sfb.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\raw\\my.sfb"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout-normal_fragment_ins_roman.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout-normal\\fragment_ins_roman.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_slider3.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\slider3.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_olga_photo.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\olga_photo.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_main.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\button_main.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_video.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\activity_video.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_instructor.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\fragment_instructor.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_login_24.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_baseline_login_24.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\font_open_sans_bold.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\font\\open_sans_bold.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_nastya_photo.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\nastya_photo.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_main.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_custom.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\button_custom.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_roman_photo.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\roman_photo.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout-normal_fragment_ins_kris_k.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout-normal\\fragment_ins_kris_k.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_photo.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\photo.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_line.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\button_line.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_legpress.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\activity_legpress.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_call_icon.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_call_icon.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_up_train.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\up_train.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_layout.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\custom_layout.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_calendar_icon.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_calendar_icon.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_slider2.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\slider2.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home_icon.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_home_icon.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_train.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\train.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cube_78954.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_cube_78954.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\raw_armbench.sfb.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\raw\\armbench.sfb"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_vladimir_photo.jpg.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\vladimir_photo.jpg"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_train.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout\\fragment_train.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_sport_icon.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_sport_icon.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_icon_g.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_icon_g.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_legrack.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\legrack.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout-normal_fragment_ins_vladimir.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout-normal\\fragment_ins_vladimir.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout-normal_fragment_ins_olga_b.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout-normal\\fragment_ins_olga_b.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic__3d_rotation_90214.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic__3d_rotation_90214.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout-normal_fragment_ins_oxana.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\layout-normal\\fragment_ins_oxana.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_accessibility_new_24.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_baseline_accessibility_new_24.xml"
+    },
+    {
+        "merged": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_horizontal_rule_24.xml.flat",
+        "source": "D:\\4_course\\AndroidStudioProjects\\HavanaGym\\MyApplication\\app\\src\\main\\res\\drawable\\ic_baseline_horizontal_rule_24.xml"
+    }
+]

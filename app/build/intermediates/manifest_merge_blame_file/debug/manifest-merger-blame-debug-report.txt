@@ -1,0 +1,381 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:5:5-69
+11-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:5:22-66
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:7:5-67
+13-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:8:5-65
+14-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:8:22-62
+15
+16    <uses-feature
+16-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:10:5-12:35
+17        android:name="android.hardware.camera.ar"
+17-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:11:9-50
+18        android:required="true" />
+18-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:12:9-32
+19
+20    <queries>
+20-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:29:5-31:15
+21        <package android:name="com.google.ar.core" />
+21-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:30:9-54
+21-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:30:18-51
+22    </queries>
+23
+24    <application
+24-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:14:5-94:19
+25        android:allowBackup="true"
+25-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:15:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.7.0] C:\Users\Alena\.gradle\caches\transforms-3\c6bb44c4445e57d5be365c934ae684db\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:16:9-43
+30        android:label="@string/app_name"
+30-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:17:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:18:9-54
+32        android:supportsRtl="true"
+32-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:19:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.MyApplication" >
+34-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:20:9-51
+35        <activity
+35-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:21:9-25:82
+36            android:name="com.example.myapplication.ui.video.LegrackActivity"
+36-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:22:13-53
+37            android:exported="false"
+37-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:23:13-37
+38            android:screenOrientation="landscape"
+38-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:24:13-50
+39            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+39-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:25:13-80
+40        <activity
+40-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:26:9-30:83
+41            android:name="com.example.myapplication.ui.video.LegpressActivity"
+41-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:27:13-54
+42            android:exported="false"
+42-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:28:13-37
+43            android:screenOrientation="landscape"
+43-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:29:13-50
+44            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+44-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:30:13-80
+45        <activity
+45-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:31:9-35:83
+46            android:name="com.example.myapplication.ui.video.ChestbenchActivity"
+46-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:32:13-56
+47            android:exported="false"
+47-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:33:13-37
+48            android:screenOrientation="landscape"
+48-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:34:13-50
+49            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+49-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:35:13-80
+50        <activity
+50-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:36:9-40:83
+51            android:name="com.example.myapplication.ui.video.ScottActivity"
+51-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:37:13-51
+52            android:exported="false"
+52-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:38:13-37
+53            android:screenOrientation="landscape"
+53-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:39:13-50
+54            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+54-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:40:13-80
+55        <activity
+55-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:41:9-45:83
+56            android:name="com.example.myapplication.ui.video.StaticsActivity"
+56-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:42:13-53
+57            android:exported="false"
+57-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:43:13-37
+58            android:screenOrientation="landscape"
+58-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:44:13-50
+59            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+59-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:45:13-80
+60        <activity
+60-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:46:9-50:83
+61            android:name="com.example.myapplication.ui.video.UpActivity"
+61-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:47:13-48
+62            android:exported="false"
+62-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:48:13-37
+63            android:screenOrientation="landscape"
+63-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:49:13-50
+64            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+64-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:50:13-80
+65        <activity
+65-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:51:9-55:83
+66            android:name="com.example.myapplication.ui.video.BottomActivity"
+66-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:52:13-52
+67            android:exported="false"
+67-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:53:13-37
+68            android:screenOrientation="landscape"
+68-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:54:13-50
+69            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+69-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:55:13-80
+70        <activity
+70-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:56:9-60:83
+71            android:name="com.example.myapplication.ui.video.VideoActivity"
+71-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:57:13-51
+72            android:exported="false"
+72-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:58:13-37
+73            android:screenOrientation="landscape"
+73-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:59:13-50
+74            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+74-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:60:13-80
+75        <activity
+75-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:61:9-63:40
+76            android:name="com.example.myapplication.ArActivity"
+76-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:62:13-39
+77            android:exported="false" />
+77-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:63:13-37
+78        <activity
+78-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:64:9-67:52
+79            android:name="com.example.myapplication.CodeActivity"
+79-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:65:13-41
+80            android:exported="false"
+80-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:66:13-37
+81            android:screenOrientation="portrait" />
+81-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:67:13-49
+82        <activity
+82-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:68:9-71:52
+83            android:name="com.example.myapplication.LoginActivity"
+83-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:69:13-42
+84            android:exported="false"
+84-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:70:13-37
+85            android:screenOrientation="portrait" /> <!-- <activity -->
+85-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:71:13-49
+86        <!-- android:name=".ui.LoginActivity" -->
+87        <!-- android:exported="false" /> -->
+88        <activity
+88-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:74:9-85:20
+89            android:name="com.example.myapplication.MainActivity"
+89-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:75:13-41
+90            android:exported="true"
+90-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:76:13-36
+91            android:label="@string/app_name"
+91-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:77:13-45
+92            android:screenOrientation="portrait"
+92-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:78:13-49
+93            android:theme="@style/Theme.MyApplication.NoActionBar" >
+93-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:79:13-67
+94            <intent-filter>
+94-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:80:13-84:29
+95                <action android:name="android.intent.action.MAIN" />
+95-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:81:17-69
+95-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:81:25-66
+96
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:83:17-77
+97-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:83:27-74
+98            </intent-filter>
+99        </activity>
+100        <activity android:name="com.example.myapplication.StartUpActivity" />
+100-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:86:9-53
+100-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:86:19-50
+101
+102        <meta-data
+102-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:88:9-90:40
+103            android:name="com.google.ar.core"
+103-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:89:13-46
+104            android:value="required" />
+104-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:90:13-37
+105        <meta-data
+105-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:91:9-93:57
+106            android:name="preloaded_fonts"
+106-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:92:13-43
+107            android:resource="@array/preloaded_fonts" />
+107-->D:\4_course\AndroidStudioProjects\HavanaGym\MyApplication\app\src\main\AndroidManifest.xml:93:13-54
+108
+109        <activity
+109-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:27:9-44:20
+110            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+110-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:28:13-80
+111            android:excludeFromRecents="true"
+111-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:29:13-46
+112            android:exported="true"
+112-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:30:13-36
+113            android:launchMode="singleTask"
+113-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:31:13-44
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+114-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:32:13-72
+115            <intent-filter>
+115-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:33:13-43:29
+116                <action android:name="android.intent.action.VIEW" />
+116-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:17-69
+116-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:25-66
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:36:17-76
+118-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:36:27-73
+119                <category android:name="android.intent.category.BROWSABLE" />
+119-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:17-78
+119-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:27-75
+120
+121                <data
+121-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:39:17-42:51
+122                    android:host="firebase.auth"
+122-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:40:21-49
+123                    android:path="/"
+123-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:41:21-37
+124                    android:scheme="genericidp" />
+124-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:42:21-48
+125            </intent-filter>
+126        </activity>
+127        <activity
+127-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:45:9-62:20
+128            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+128-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:46:13-79
+129            android:excludeFromRecents="true"
+129-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:47:13-46
+130            android:exported="true"
+130-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:48:13-36
+131            android:launchMode="singleTask"
+131-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:49:13-44
+132            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+132-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:50:13-72
+133            <intent-filter>
+133-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:51:13-61:29
+134                <action android:name="android.intent.action.VIEW" />
+134-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:17-69
+134-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:25-66
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:36:17-76
+136-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:36:27-73
+137                <category android:name="android.intent.category.BROWSABLE" />
+137-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:17-78
+137-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:27-75
+138
+139                <data
+139-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:39:17-42:51
+140                    android:host="firebase.auth"
+140-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:40:21-49
+141                    android:path="/"
+141-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:41:21-37
+142                    android:scheme="recaptcha" />
+142-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:42:21-48
+143            </intent-filter>
+144        </activity>
+145
+146        <service
+146-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:64:9-70:19
+147            android:name="com.google.firebase.components.ComponentDiscoveryService"
+147-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:65:13-84
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Alena\.gradle\caches\transforms-3\c73d817de8d16dfc846e1ac84ea7df56\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+149            android:exported="false" >
+149-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:66:13-37
+150            <meta-data
+150-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:67:13-69:85
+151                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+151-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:68:17-109
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\Alena\.gradle\caches\transforms-3\17443465ee8644f2724d3b869ada85a9\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:69:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Alena\.gradle\caches\transforms-3\1421db179bdc09f45e38f3b401824238\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
+154                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+154-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Alena\.gradle\caches\transforms-3\1421db179bdc09f45e38f3b401824238\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:33:17-109
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Alena\.gradle\caches\transforms-3\1421db179bdc09f45e38f3b401824238\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:34:17-82
+156        </service> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+157        <meta-data
+157-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:36:9-38:41
+158            android:name="com.google.ar.core.min_apk_version"
+158-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:37:13-62
+159            android:value="220920000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+159-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:38:13-38
+160        <activity
+160-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:40:9-46:80
+161            android:name="com.google.ar.core.InstallActivity"
+161-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:41:13-62
+162            android:configChanges="keyboardHidden|orientation|screenSize"
+162-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:42:13-74
+163            android:excludeFromRecents="true"
+163-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:43:13-46
+164            android:exported="false"
+164-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:44:13-37
+165            android:launchMode="singleTop"
+165-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:45:13-43
+166            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+166-->[com.google.ar:core:1.31.0] C:\Users\Alena\.gradle\caches\transforms-3\3910d3da738ccf7fe7cb4c78cb1f8dc7\transformed\jetified-core-1.31.0\AndroidManifest.xml:46:13-77
+167
+168        <provider
+168-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Alena\.gradle\caches\transforms-3\c73d817de8d16dfc846e1ac84ea7df56\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+169            android:name="com.google.firebase.provider.FirebaseInitProvider"
+169-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Alena\.gradle\caches\transforms-3\c73d817de8d16dfc846e1ac84ea7df56\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+170            android:authorities="com.example.myapplication.firebaseinitprovider"
+170-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Alena\.gradle\caches\transforms-3\c73d817de8d16dfc846e1ac84ea7df56\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+171            android:directBootAware="true"
+171-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Alena\.gradle\caches\transforms-3\c73d817de8d16dfc846e1ac84ea7df56\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+172            android:exported="false"
+172-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Alena\.gradle\caches\transforms-3\c73d817de8d16dfc846e1ac84ea7df56\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+173            android:initOrder="100" />
+173-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Alena\.gradle\caches\transforms-3\c73d817de8d16dfc846e1ac84ea7df56\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+174
+175        <activity
+175-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Alena\.gradle\caches\transforms-3\73d3046ec8342bbbf2f704a746186ab4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+176            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+176-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Alena\.gradle\caches\transforms-3\73d3046ec8342bbbf2f704a746186ab4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+177            android:exported="false"
+177-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Alena\.gradle\caches\transforms-3\73d3046ec8342bbbf2f704a746186ab4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+178-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Alena\.gradle\caches\transforms-3\73d3046ec8342bbbf2f704a746186ab4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+179
+180        <meta-data
+180-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Alena\.gradle\caches\transforms-3\15f0a43abf6f781823c700bccecd0e9a\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+181            android:name="com.google.android.gms.version"
+181-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Alena\.gradle\caches\transforms-3\15f0a43abf6f781823c700bccecd0e9a\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+182            android:value="@integer/google_play_services_version" />
+182-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Alena\.gradle\caches\transforms-3\15f0a43abf6f781823c700bccecd0e9a\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+183
+184        <provider
+184-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7c70544aec3d40cb36d3c59625512682\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+185            android:name="androidx.startup.InitializationProvider"
+185-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7c70544aec3d40cb36d3c59625512682\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+186            android:authorities="com.example.myapplication.androidx-startup"
+186-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7c70544aec3d40cb36d3c59625512682\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+187            android:exported="false" >
+187-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7c70544aec3d40cb36d3c59625512682\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+188            <meta-data
+188-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7c70544aec3d40cb36d3c59625512682\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+189                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+189-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7c70544aec3d40cb36d3c59625512682\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+190                android:value="androidx.startup" />
+190-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7c70544aec3d40cb36d3c59625512682\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+191            <meta-data
+191-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Alena\.gradle\caches\transforms-3\ec892a978b11595cf4682eac1eef3338\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+192                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+192-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Alena\.gradle\caches\transforms-3\ec892a978b11595cf4682eac1eef3338\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+193                android:value="androidx.startup" />
+193-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Alena\.gradle\caches\transforms-3\ec892a978b11595cf4682eac1eef3338\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+194        </provider>
+195
+196        <uses-library
+196-->[androidx.window:window:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7ade6291c841bde7c2af7c4377c984b3\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+197            android:name="androidx.window.extensions"
+197-->[androidx.window:window:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7ade6291c841bde7c2af7c4377c984b3\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+198            android:required="false" />
+198-->[androidx.window:window:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7ade6291c841bde7c2af7c4377c984b3\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+199        <uses-library
+199-->[androidx.window:window:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7ade6291c841bde7c2af7c4377c984b3\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+200            android:name="androidx.window.sidecar"
+200-->[androidx.window:window:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7ade6291c841bde7c2af7c4377c984b3\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+201            android:required="false" />
+201-->[androidx.window:window:1.0.0] C:\Users\Alena\.gradle\caches\transforms-3\7ade6291c841bde7c2af7c4377c984b3\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+202    </application>
+203
+204</manifest>

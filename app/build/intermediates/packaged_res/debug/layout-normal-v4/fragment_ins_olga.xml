@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.instructor.InstructorFragment"
+    tools:ignore="MissingDefaultResource">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/image_olga"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/olga_photo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_info_olga_ins_1"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="55dp"
+            android:gravity="center"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="@string/text_info_olga_ins_1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/image_olga"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_info_olga_ins_2"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="@string/text_info_olga_ins_2"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/image_olga"
+            app:layout_constraintTop_toBottomOf="@+id/text_info_olga_ins_1"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_info"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/person_color_light"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/text_info_"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_olga"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_olga_ins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="6dp"
+            android:gravity="start"
+            android:text="@string/all_info_olga"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_info"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
